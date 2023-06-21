@@ -54,6 +54,7 @@ header {
     left: 0;
 
     box-shadow: 6px 6px 10px #cecbcb;
+    background-color: #fbfbfb;
    
 }
 
@@ -62,8 +63,7 @@ header {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-   
-  }
+}
 
 .logo{
     max-height: 90px;
@@ -143,6 +143,7 @@ h1, h2, p{
     object-fit: cover;
     margin-top: 200px;
     margin-bottom: 40px;
+    
 }
 
 .inicio .p{

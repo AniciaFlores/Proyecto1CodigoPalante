@@ -58,14 +58,14 @@ header {
    
 }
 
-.header .ul{
+header ul{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo{
+header figure img .logo{
     max-height: 90px;
 }
 
@@ -81,6 +81,7 @@ nav li:last-child {
 main {
     max-width: 1200px;
     margin: auto;
+    width: 80%;
 }
 
 /*Amé estas recomendaciones...💖 No te dejan desistir*/
@@ -107,22 +108,18 @@ h1, h2, p{
     color: #0f0f0f;
 }
 
-.h1{
+h1{
     font-size: 36px;
     text-align: center;
 }
 
-.h2{
+h2{
     font-size: 28px;
 }
 
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/*main{
     width: 80%;
-}
+}*/
 
 .inicio{
     min-height: 100vh;
@@ -133,12 +130,13 @@ h1, h2, p{
     width: 100%;
 }
 
-.img{
+/*.img{ Quité esta clase porque no me tomaba el estilo*/ 
+figure img{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     margin-top: 200px;
@@ -178,7 +176,7 @@ h1, h2, p{
     padding: 20px;
 }
 
-.p{
+p{
     font-size:18px;
     margin-top: 20px;
  }
@@ -206,7 +204,7 @@ footer{
     height: 90px;
 }
 
-.footer p{
+footer p{
     display: flex;
     align-items: center;
     justify-content: center;
